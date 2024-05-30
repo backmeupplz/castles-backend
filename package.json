@@ -17,8 +17,13 @@
     "lint-fix": "yarn eslint ./src/ --fix"
   },
   "dependencies": {
+    "@types/node-fetch": "^2.6.11",
+    "axios": "^1.7.2",
+    "castles-contract": "^0.1.2",
     "dotenv": "^16.4.5",
-    "envalid": "^8.0.0"
+    "envalid": "^8.0.0",
+    "ethers": "^6.12.1",
+    "node-fetch": "2"
   },
   "devDependencies": {
     "@big-whale-labs/bwl-eslint-backend": "^1.0.6",
