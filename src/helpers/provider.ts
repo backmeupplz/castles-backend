@@ -1,4 +1,4 @@
-import { WebSocketProvider } from 'ethers'
+import { JsonRpcProvider } from 'ethers'
 import env from '@/helpers/env'
 
-export default new WebSocketProvider(env.RPC)
+export default new JsonRpcProvider(env.RPC)
